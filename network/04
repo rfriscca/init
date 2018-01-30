@@ -1,0 +1,1 @@
+netstat -nr | grep -m 1 default | cut -d 't' -f 2 | awk '{print $1}'
